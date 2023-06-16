@@ -1,0 +1,114 @@
+body{
+  background-color: bisque;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+}
+
+canvas {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.details {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.header-text {
+  position: fixed;
+  z-index: 2;
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+  left: 40%;
+  bottom: 20%;
+  transform: translate(-20%, -40%);
+}
+
+.ball-text {
+  position: fixed;
+  z-index: 2;
+  color: white;
+  font-size: 100px;
+  left: 30%;
+  bottom: 30%;
+  transform: translate(-20%, -5%);
+  opacity: 0;
+}
+
+.pistole-text {
+  position: fixed;
+  z-index: 2;
+  color: white;
+  font-size: 100px;
+  right: 20%;
+  bottom: 20%;
+  transform: translate(-20%, -5%);
+  opacity: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .header-text {
+    font-size: 3rem;
+    left: -40%;
+    bottom: 45%;
+    transform: translate(50%, 50%);
+  }
+
+
+  .ball-text {
+    font-size: 2rem;
+    right: 50%;
+    bottom: 25%;
+    transform: translate(50%, 50%);
+  }
+
+  .pistole-text {
+    font-size: 2rem;
+    right: 50%;
+    bottom: 25%;
+    transform: translate(50%, 50%);
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+.Aktuelles{
+  margin-top: 0%;
+  background-color: bisque;
+  width: 100%;
+  min-height: 1200px;
+  margin: 0%;
+}
+
+img.Aktuelles-i{
+  width: 70%;
+  filter: blur();
+  -webkit-filter: blur(2px);
+  
+  min-height: 700px;
+  left: 14%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Aktuelles-i-text{
+  filter: blur();
+  -webkit-filter: blur(0px)
+}

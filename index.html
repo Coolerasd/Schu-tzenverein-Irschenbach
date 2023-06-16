@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style-nav.css">
+    <meta name="viewport" content="width=device-width">
+    <title>Gsap Flip</title>
+  </head>
+  <body>
+
+    <!-- Menü -->
+
+    <header>
+      <a href="index.html"><img class="logo" src="./Bilder/Aufnaeher_91x115 1.png" alt="test"></a>
+
+      <ul class="navbar">
+        <li><a href="#Startseite" class="active">Startseite</a></li>
+        <li><a href="#aktuelles">Aktuelles</a></li>
+        <li><a href="#">Über uns</a></li>
+        <li><a href="#">Kontakt</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+
+    <div class="main">
+      <img id="menu-icon" src="./Bilder/bx-menu.svg" alt="">
+      <img id="menu-icon-open" src="./Bilder/bx-x.svg" alt="">
+    </div>
+
+    </header>
+
+    <script type="text/javascript" src="script.js"></script>
+
+    
+    
+
+    <!-- Menü ende -->
+    <section id="Startseite">
+    <h1 class="header-text">Schützenverein <br> Waidlerbuam <br> Irschenbach</h1>
+    <a class="ball-text" href="test.html">Gewehr</a>
+    <a class="pistole-text" href="test.html">Pistole</a>
+    <canvas class="canvas"></canvas>
+    <br>
+    </section>
+<br>
+    <section id="aktuelles">
+    <div class="Aktuelles">
+      <h1>Aktuelles</h1>
+      <div class="Aktuelles-i">
+        <img src="./Bilder/Luftgewehrscheibe.jpg" alt="">
+        <div id="Aktuelles-i-text"><h1>Hallo</h1></div>
+
+      </div>
+    </div>
+    </section>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"
+      integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"
+      integrity="sha512-tHvUcUQYi35zApvAa5TNR3fNhBQkVtkmWKfacnpxmix4/VTGz1lGjIVyLMp7gLgAvg+aKJjnVKokXJNS5GZ+/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
